@@ -1,0 +1,6 @@
+framework module Pods_SzappTests {
+  umbrella header "Pods-SzappTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

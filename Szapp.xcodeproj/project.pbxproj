@@ -7,9 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		01A32BC98FE4CA9F39E95902 /* Pods_Szapp_SzappUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E4835B2CAC2F6E74E6CADDE /* Pods_Szapp_SzappUITests.framework */; };
+		0B563DBF31926E71A47B820B /* Pods_Szapp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFD7B33A2B764EE1750D47A8 /* Pods_Szapp.framework */; };
 		2DD2C00427A274F00010B119 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DD2C00327A274F00010B119 /* AppDelegate.m */; };
 		2DD2C00727A274F00010B119 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DD2C00627A274F00010B119 /* SceneDelegate.m */; };
-		2DD2C00A27A274F00010B119 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DD2C00927A274F00010B119 /* ViewController.m */; };
 		2DD2C00D27A274F00010B119 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DD2C00B27A274F00010B119 /* Main.storyboard */; };
 		2DD2C01027A274F00010B119 /* Szapp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2DD2C00E27A274F00010B119 /* Szapp.xcdatamodeld */; };
 		2DD2C01227A274F30010B119 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DD2C01127A274F30010B119 /* Assets.xcassets */; };
@@ -18,6 +19,13 @@
 		2DD2C02227A274F30010B119 /* SzappTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DD2C02127A274F30010B119 /* SzappTests.m */; };
 		2DD2C02C27A274F30010B119 /* SzappUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DD2C02B27A274F30010B119 /* SzappUITests.m */; };
 		2DD2C02E27A274F30010B119 /* SzappUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DD2C02D27A274F30010B119 /* SzappUITestsLaunchTests.m */; };
+		2DD2C03C27A278A70010B119 /* HomeScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DD2C03B27A278A70010B119 /* HomeScreenViewController.m */; };
+		2DD2C04027A27A3E0010B119 /* UserProductsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DD2C03F27A27A3E0010B119 /* UserProductsViewController.m */; };
+		2DD2C04427A27BFB0010B119 /* TabsNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DD2C04327A27BFB0010B119 /* TabsNavigationController.m */; };
+		2DD2C04727A27DBA0010B119 /* StackNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DD2C04627A27DBA0010B119 /* StackNavigationController.m */; };
+		2DD2C04A27A27E790010B119 /* AddProductViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DD2C04927A27E790010B119 /* AddProductViewController.m */; };
+		2DEB1A3927A2D91400F2F3E7 /* BasketViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DEB1A3827A2D91400F2F3E7 /* BasketViewController.m */; };
+		F32B9A07BD5D1E037BCBA6AA /* Pods_SzappTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7E6E11FB471B65B256520C2 /* Pods_SzappTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,13 +46,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0D301F9EAB49572AF5C45661 /* Pods-Szapp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Szapp.debug.xcconfig"; path = "Target Support Files/Pods-Szapp/Pods-Szapp.debug.xcconfig"; sourceTree = "<group>"; };
+		118FFB31E96320E20B8A96B7 /* Pods-Szapp-SzappUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Szapp-SzappUITests.release.xcconfig"; path = "Target Support Files/Pods-Szapp-SzappUITests/Pods-Szapp-SzappUITests.release.xcconfig"; sourceTree = "<group>"; };
+		1B93D9569B6ED470B23CB58D /* Pods-SzappTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SzappTests.debug.xcconfig"; path = "Target Support Files/Pods-SzappTests/Pods-SzappTests.debug.xcconfig"; sourceTree = "<group>"; };
+		1E4835B2CAC2F6E74E6CADDE /* Pods_Szapp_SzappUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Szapp_SzappUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		295C6021FEF4753DCA2B5DF0 /* Pods-Szapp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Szapp.release.xcconfig"; path = "Target Support Files/Pods-Szapp/Pods-Szapp.release.xcconfig"; sourceTree = "<group>"; };
 		2DD2BFFF27A274F00010B119 /* Szapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Szapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DD2C00227A274F00010B119 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2DD2C00327A274F00010B119 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		2DD2C00527A274F00010B119 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
 		2DD2C00627A274F00010B119 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		2DD2C00827A274F00010B119 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		2DD2C00927A274F00010B119 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		2DD2C00C27A274F00010B119 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2DD2C00F27A274F00010B119 /* Szapp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Szapp.xcdatamodel; sourceTree = "<group>"; };
 		2DD2C01127A274F30010B119 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -56,6 +67,22 @@
 		2DD2C02727A274F30010B119 /* SzappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SzappUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DD2C02B27A274F30010B119 /* SzappUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SzappUITests.m; sourceTree = "<group>"; };
 		2DD2C02D27A274F30010B119 /* SzappUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SzappUITestsLaunchTests.m; sourceTree = "<group>"; };
+		2DD2C03B27A278A70010B119 /* HomeScreenViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeScreenViewController.m; sourceTree = "<group>"; };
+		2DD2C03D27A278BF0010B119 /* HomeScreenViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeScreenViewController.h; sourceTree = "<group>"; };
+		2DD2C03E27A27A280010B119 /* UserProductsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserProductsViewController.h; sourceTree = "<group>"; };
+		2DD2C03F27A27A3E0010B119 /* UserProductsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserProductsViewController.m; sourceTree = "<group>"; };
+		2DD2C04227A27BEB0010B119 /* TabsNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TabsNavigationController.h; sourceTree = "<group>"; };
+		2DD2C04327A27BFB0010B119 /* TabsNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabsNavigationController.m; sourceTree = "<group>"; };
+		2DD2C04527A27DA60010B119 /* StackNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StackNavigationController.h; sourceTree = "<group>"; };
+		2DD2C04627A27DBA0010B119 /* StackNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StackNavigationController.m; sourceTree = "<group>"; };
+		2DD2C04827A27E600010B119 /* AddProductViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddProductViewController.h; sourceTree = "<group>"; };
+		2DD2C04927A27E790010B119 /* AddProductViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddProductViewController.m; sourceTree = "<group>"; };
+		2DEB1A3727A2D90400F2F3E7 /* BasketViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BasketViewController.h; sourceTree = "<group>"; };
+		2DEB1A3827A2D91400F2F3E7 /* BasketViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BasketViewController.m; sourceTree = "<group>"; };
+		78BF78B070BF7E04A548BFD2 /* Pods-SzappTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SzappTests.release.xcconfig"; path = "Target Support Files/Pods-SzappTests/Pods-SzappTests.release.xcconfig"; sourceTree = "<group>"; };
+		7AC647AA3C7F6318F1BF0FE3 /* Pods-Szapp-SzappUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Szapp-SzappUITests.debug.xcconfig"; path = "Target Support Files/Pods-Szapp-SzappUITests/Pods-Szapp-SzappUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F7E6E11FB471B65B256520C2 /* Pods_SzappTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SzappTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFD7B33A2B764EE1750D47A8 /* Pods_Szapp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Szapp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B563DBF31926E71A47B820B /* Pods_Szapp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F32B9A07BD5D1E037BCBA6AA /* Pods_SzappTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,12 +106,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01A32BC98FE4CA9F39E95902 /* Pods_Szapp_SzappUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0C6A2DEEAF28E94137EE2604 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0D301F9EAB49572AF5C45661 /* Pods-Szapp.debug.xcconfig */,
+				295C6021FEF4753DCA2B5DF0 /* Pods-Szapp.release.xcconfig */,
+				7AC647AA3C7F6318F1BF0FE3 /* Pods-Szapp-SzappUITests.debug.xcconfig */,
+				118FFB31E96320E20B8A96B7 /* Pods-Szapp-SzappUITests.release.xcconfig */,
+				1B93D9569B6ED470B23CB58D /* Pods-SzappTests.debug.xcconfig */,
+				78BF78B070BF7E04A548BFD2 /* Pods-SzappTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		2DD2BFF627A274F00010B119 = {
 			isa = PBXGroup;
 			children = (
@@ -90,6 +133,8 @@
 				2DD2C02027A274F30010B119 /* SzappTests */,
 				2DD2C02A27A274F30010B119 /* SzappUITests */,
 				2DD2C00027A274F00010B119 /* Products */,
+				0C6A2DEEAF28E94137EE2604 /* Pods */,
+				97D9083F5732F646E71E0C32 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,12 +151,12 @@
 		2DD2C00127A274F00010B119 /* Szapp */ = {
 			isa = PBXGroup;
 			children = (
+				2DD2C04127A27BCE0010B119 /* NavigationControllers */,
+				2DD2C03A27A278740010B119 /* ViewControllers */,
 				2DD2C00227A274F00010B119 /* AppDelegate.h */,
 				2DD2C00327A274F00010B119 /* AppDelegate.m */,
 				2DD2C00527A274F00010B119 /* SceneDelegate.h */,
 				2DD2C00627A274F00010B119 /* SceneDelegate.m */,
-				2DD2C00827A274F00010B119 /* ViewController.h */,
-				2DD2C00927A274F00010B119 /* ViewController.m */,
 				2DD2C00B27A274F00010B119 /* Main.storyboard */,
 				2DD2C01127A274F30010B119 /* Assets.xcassets */,
 				2DD2C01327A274F30010B119 /* LaunchScreen.storyboard */,
@@ -139,6 +184,42 @@
 			path = SzappUITests;
 			sourceTree = "<group>";
 		};
+		2DD2C03A27A278740010B119 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				2DD2C03B27A278A70010B119 /* HomeScreenViewController.m */,
+				2DD2C03D27A278BF0010B119 /* HomeScreenViewController.h */,
+				2DD2C03E27A27A280010B119 /* UserProductsViewController.h */,
+				2DD2C03F27A27A3E0010B119 /* UserProductsViewController.m */,
+				2DD2C04827A27E600010B119 /* AddProductViewController.h */,
+				2DD2C04927A27E790010B119 /* AddProductViewController.m */,
+				2DEB1A3727A2D90400F2F3E7 /* BasketViewController.h */,
+				2DEB1A3827A2D91400F2F3E7 /* BasketViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		2DD2C04127A27BCE0010B119 /* NavigationControllers */ = {
+			isa = PBXGroup;
+			children = (
+				2DD2C04227A27BEB0010B119 /* TabsNavigationController.h */,
+				2DD2C04327A27BFB0010B119 /* TabsNavigationController.m */,
+				2DD2C04527A27DA60010B119 /* StackNavigationController.h */,
+				2DD2C04627A27DBA0010B119 /* StackNavigationController.m */,
+			);
+			path = NavigationControllers;
+			sourceTree = "<group>";
+		};
+		97D9083F5732F646E71E0C32 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FFD7B33A2B764EE1750D47A8 /* Pods_Szapp.framework */,
+				1E4835B2CAC2F6E74E6CADDE /* Pods_Szapp_SzappUITests.framework */,
+				F7E6E11FB471B65B256520C2 /* Pods_SzappTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -146,6 +227,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2DD2C03127A274F30010B119 /* Build configuration list for PBXNativeTarget "Szapp" */;
 			buildPhases = (
+				5DEC6CB12788DC11D817707A /* [CP] Check Pods Manifest.lock */,
 				2DD2BFFB27A274F00010B119 /* Sources */,
 				2DD2BFFC27A274F00010B119 /* Frameworks */,
 				2DD2BFFD27A274F00010B119 /* Resources */,
@@ -163,6 +245,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2DD2C03427A274F30010B119 /* Build configuration list for PBXNativeTarget "SzappTests" */;
 			buildPhases = (
+				DBE80483F8E5154B762B3AF6 /* [CP] Check Pods Manifest.lock */,
 				2DD2C01927A274F30010B119 /* Sources */,
 				2DD2C01A27A274F30010B119 /* Frameworks */,
 				2DD2C01B27A274F30010B119 /* Resources */,
@@ -181,6 +264,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2DD2C03727A274F30010B119 /* Build configuration list for PBXNativeTarget "SzappUITests" */;
 			buildPhases = (
+				0E7BB6E68D234D6561ED2DFD /* [CP] Check Pods Manifest.lock */,
 				2DD2C02327A274F30010B119 /* Sources */,
 				2DD2C02427A274F30010B119 /* Frameworks */,
 				2DD2C02527A274F30010B119 /* Resources */,
@@ -264,16 +348,90 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0E7BB6E68D234D6561ED2DFD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Szapp-SzappUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5DEC6CB12788DC11D817707A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Szapp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DBE80483F8E5154B762B3AF6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SzappTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2DD2BFFB27A274F00010B119 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DD2C04A27A27E790010B119 /* AddProductViewController.m in Sources */,
 				2DD2C01827A274F30010B119 /* main.m in Sources */,
+				2DD2C04727A27DBA0010B119 /* StackNavigationController.m in Sources */,
 				2DD2C01027A274F00010B119 /* Szapp.xcdatamodeld in Sources */,
-				2DD2C00A27A274F00010B119 /* ViewController.m in Sources */,
+				2DD2C04427A27BFB0010B119 /* TabsNavigationController.m in Sources */,
+				2DD2C03C27A278A70010B119 /* HomeScreenViewController.m in Sources */,
+				2DEB1A3927A2D91400F2F3E7 /* BasketViewController.m in Sources */,
 				2DD2C00427A274F00010B119 /* AppDelegate.m in Sources */,
 				2DD2C00727A274F00010B119 /* SceneDelegate.m in Sources */,
+				2DD2C04027A27A3E0010B119 /* UserProductsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -443,6 +601,7 @@
 		};
 		2DD2C03227A274F30010B119 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D301F9EAB49572AF5C45661 /* Pods-Szapp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -450,6 +609,11 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = K4ZRJRAX8R;
 				GENERATE_INFOPLIST_FILE = YES;
+				HEADER_SEARCH_PATHS = (
+					"\"${SRCROOT}\"/**",
+					"\"${SRCROOT}/NavigationControllers\"/**",
+					"\"${SRCROOT}/ViewControllers\"/**",
+				);
 				INFOPLIST_FILE = Szapp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
@@ -470,6 +634,7 @@
 		};
 		2DD2C03327A274F30010B119 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 295C6021FEF4753DCA2B5DF0 /* Pods-Szapp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -477,6 +642,11 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = K4ZRJRAX8R;
 				GENERATE_INFOPLIST_FILE = YES;
+				HEADER_SEARCH_PATHS = (
+					"\"${SRCROOT}\"/**",
+					"\"${SRCROOT}/NavigationControllers\"/**",
+					"\"${SRCROOT}/ViewControllers\"/**",
+				);
 				INFOPLIST_FILE = Szapp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
@@ -497,6 +667,7 @@
 		};
 		2DD2C03527A274F30010B119 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B93D9569B6ED470B23CB58D /* Pods-SzappTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -520,6 +691,7 @@
 		};
 		2DD2C03627A274F30010B119 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78BF78B070BF7E04A548BFD2 /* Pods-SzappTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -543,6 +715,7 @@
 		};
 		2DD2C03827A274F30010B119 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7AC647AA3C7F6318F1BF0FE3 /* Pods-Szapp-SzappUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -564,6 +737,7 @@
 		};
 		2DD2C03927A274F30010B119 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 118FFB31E96320E20B8A96B7 /* Pods-Szapp-SzappUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
