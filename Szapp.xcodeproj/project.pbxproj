@@ -25,6 +25,9 @@
 		2DD2C04727A27DBA0010B119 /* StackNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DD2C04627A27DBA0010B119 /* StackNavigationController.m */; };
 		2DD2C04A27A27E790010B119 /* AddProductViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DD2C04927A27E790010B119 /* AddProductViewController.m */; };
 		2DEB1A3927A2D91400F2F3E7 /* BasketViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DEB1A3827A2D91400F2F3E7 /* BasketViewController.m */; };
+		2DEB1A3D27A408BC00F2F3E7 /* ProductsListTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DEB1A3C27A408BC00F2F3E7 /* ProductsListTableView.m */; };
+		2DEB1A4127A409FA00F2F3E7 /* ProductTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DEB1A4027A409FA00F2F3E7 /* ProductTableCell.m */; };
+		2DEB1A4427A42D6A00F2F3E7 /* ShopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DEB1A4327A42D6A00F2F3E7 /* ShopView.m */; };
 		F32B9A07BD5D1E037BCBA6AA /* Pods_SzappTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7E6E11FB471B65B256520C2 /* Pods_SzappTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -79,6 +82,12 @@
 		2DD2C04927A27E790010B119 /* AddProductViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddProductViewController.m; sourceTree = "<group>"; };
 		2DEB1A3727A2D90400F2F3E7 /* BasketViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BasketViewController.h; sourceTree = "<group>"; };
 		2DEB1A3827A2D91400F2F3E7 /* BasketViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BasketViewController.m; sourceTree = "<group>"; };
+		2DEB1A3B27A4082200F2F3E7 /* ProductsListTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProductsListTableView.h; sourceTree = "<group>"; };
+		2DEB1A3C27A408BC00F2F3E7 /* ProductsListTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProductsListTableView.m; sourceTree = "<group>"; };
+		2DEB1A3F27A409C000F2F3E7 /* ProductTableCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProductTableCell.h; sourceTree = "<group>"; };
+		2DEB1A4027A409FA00F2F3E7 /* ProductTableCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProductTableCell.m; sourceTree = "<group>"; };
+		2DEB1A4227A42D3D00F2F3E7 /* ShopView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShopView.h; sourceTree = "<group>"; };
+		2DEB1A4327A42D6A00F2F3E7 /* ShopView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShopView.m; sourceTree = "<group>"; };
 		78BF78B070BF7E04A548BFD2 /* Pods-SzappTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SzappTests.release.xcconfig"; path = "Target Support Files/Pods-SzappTests/Pods-SzappTests.release.xcconfig"; sourceTree = "<group>"; };
 		7AC647AA3C7F6318F1BF0FE3 /* Pods-Szapp-SzappUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Szapp-SzappUITests.debug.xcconfig"; path = "Target Support Files/Pods-Szapp-SzappUITests/Pods-Szapp-SzappUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		F7E6E11FB471B65B256520C2 /* Pods_SzappTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SzappTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -151,6 +160,8 @@
 		2DD2C00127A274F00010B119 /* Szapp */ = {
 			isa = PBXGroup;
 			children = (
+				2DEB1A3E27A409A300F2F3E7 /* Components */,
+				2DEB1A3A27A407F400F2F3E7 /* Views */,
 				2DD2C04127A27BCE0010B119 /* NavigationControllers */,
 				2DD2C03A27A278740010B119 /* ViewControllers */,
 				2DD2C00227A274F00010B119 /* AppDelegate.h */,
@@ -208,6 +219,26 @@
 				2DD2C04627A27DBA0010B119 /* StackNavigationController.m */,
 			);
 			path = NavigationControllers;
+			sourceTree = "<group>";
+		};
+		2DEB1A3A27A407F400F2F3E7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2DEB1A3B27A4082200F2F3E7 /* ProductsListTableView.h */,
+				2DEB1A3C27A408BC00F2F3E7 /* ProductsListTableView.m */,
+				2DEB1A4227A42D3D00F2F3E7 /* ShopView.h */,
+				2DEB1A4327A42D6A00F2F3E7 /* ShopView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2DEB1A3E27A409A300F2F3E7 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				2DEB1A3F27A409C000F2F3E7 /* ProductTableCell.h */,
+				2DEB1A4027A409FA00F2F3E7 /* ProductTableCell.m */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 		97D9083F5732F646E71E0C32 /* Frameworks */ = {
@@ -424,13 +455,16 @@
 			files = (
 				2DD2C04A27A27E790010B119 /* AddProductViewController.m in Sources */,
 				2DD2C01827A274F30010B119 /* main.m in Sources */,
+				2DEB1A4127A409FA00F2F3E7 /* ProductTableCell.m in Sources */,
 				2DD2C04727A27DBA0010B119 /* StackNavigationController.m in Sources */,
 				2DD2C01027A274F00010B119 /* Szapp.xcdatamodeld in Sources */,
 				2DD2C04427A27BFB0010B119 /* TabsNavigationController.m in Sources */,
 				2DD2C03C27A278A70010B119 /* HomeScreenViewController.m in Sources */,
 				2DEB1A3927A2D91400F2F3E7 /* BasketViewController.m in Sources */,
 				2DD2C00427A274F00010B119 /* AppDelegate.m in Sources */,
+				2DEB1A4427A42D6A00F2F3E7 /* ShopView.m in Sources */,
 				2DD2C00727A274F00010B119 /* SceneDelegate.m in Sources */,
+				2DEB1A3D27A408BC00F2F3E7 /* ProductsListTableView.m in Sources */,
 				2DD2C04027A27A3E0010B119 /* UserProductsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -613,6 +647,8 @@
 					"\"${SRCROOT}\"/**",
 					"\"${SRCROOT}/NavigationControllers\"/**",
 					"\"${SRCROOT}/ViewControllers\"/**",
+					"\"${SRCROOT}/Components\"/**",
+					"\"${SRCROOT}/Views\"/**",
 				);
 				INFOPLIST_FILE = Szapp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -646,6 +682,8 @@
 					"\"${SRCROOT}\"/**",
 					"\"${SRCROOT}/NavigationControllers\"/**",
 					"\"${SRCROOT}/ViewControllers\"/**",
+					"\"${SRCROOT}/Components\"/**",
+					"\"${SRCROOT}/Views\"/**",
 				);
 				INFOPLIST_FILE = Szapp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
